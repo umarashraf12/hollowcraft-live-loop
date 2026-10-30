@@ -790,3 +790,20 @@ window.renderFrame = function (t) {
   return comp.toDataURL('image/jpeg', .9);
 };
 window.READY = true;
+
+// Thumbnail hero frame: frozen mace smash, low angle, no HUD/captions.
+window.renderThumb = function (o = {}) {
+  const t0 = 50, age = o.age ?? .14, t = t0 + age, mz = 35;
+  const S = { t, hud: false, fp: false, bursts: [], rings: [], water: null, ghosts: [], overlays: [], hits: [], trail: null, outline: false, orb: null,
+    player: { visible: true, pos: V(40, o.py ?? 11.7, mz - .5), yaw: o.pyaw ?? -.35, held: 'mace', p: { smash: .35 } },
+    mob: { pos: V(40, 9, mz), yaw: o.myaw ?? 2.45, walk: 1.2, alive: true, dead: 0, hurt: false } };
+  smashFX(S, t0, V(40, 9.05, mz), o.k ?? .8);
+  S.bursts.forEach(b => { if (b.type === 'poof') b.t0 = 999; });
+  S.cam = { pos: V(o.cx ?? 45.5, o.cy ?? 9.6, o.cz ?? 29.2), look: V(o.lx ?? 40, o.ly ?? 12.0, o.lz ?? mz), fov: o.fov ?? 62 };
+  apply(S);
+  PLAYER.item.scale.setScalar(o.ms ?? 2.4); PLAYER.item.position.set(0, -.95, 0); PLAYER.item.rotation.set(0, o.mry ?? .6, deg(o.mrz ?? 40));
+  pose(PLAYER, { smash: .1 }); renderer.render(scene, camera);
+  ctx.save(); ctx.filter = 'saturate(1.35) contrast(1.12)'; ctx.drawImage(renderer.domElement, 0, 0); ctx.restore();
+  const vg = ctx.createRadialGradient(W * .62, H / 2, H * .35, W / 2, H / 2, H * 1.0); vg.addColorStop(0, 'rgba(0,0,0,0)'); vg.addColorStop(1, 'rgba(0,0,0,.55)'); ctx.fillStyle = vg; ctx.fillRect(0, 0, W, H);
+  return comp.toDataURL('image/png');
+};

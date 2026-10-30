@@ -25,3 +25,13 @@ python3 sfx.py
 
 To make a new episode, edit the line list in `tts.py` and the `stateAt(t)` timeline in `scene.js`.
 Event times in `sfx.py` follow the same timeline.
+
+## Thumbnail
+`thumb.js` renders the frozen mace-smash hero frame (`window.renderThumb(opts)` in `scene.js`, with camera, pose and mace angle as options).
+`thumb_compose.py` crops it and adds the text, tag and speed lines. The result is a 1280×720 JPG.
+
+```bash
+B='"age":0.035,"py":11.4,"pyaw":1.9,"myaw":2.35,"cx":44.2,"cy":10.6,"cz":30.2,"lx":41.1,"ly":12.0,"lz":35.6,"fov":60,"k":0.5'
+node thumb.js "[{$B,\"mry\":-0.6,\"mrz\":-40}]"     # -> thumb_raw0.png
+python3 thumb_compose.py thumb_raw0.png thumbnail.jpg
+```
