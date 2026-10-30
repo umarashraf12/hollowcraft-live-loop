@@ -1,0 +1,116 @@
+{
+  "title": "Monsters Tried to Steal Baby's Halloween Candy",
+  "channel_name": "YOUR CHANNEL",
+  "style_prefix": "3D animated feature-film style, soft cinematic lighting, smooth stylized characters with big expressive eyes and subsurface skin, cozy nursery at night lit by cool blue moonlight and warm orange lamp glow, Halloween decorations, shallow depth of field, high detail, 16:9",
+  "characters": {
+    "MILO": "a chubby 1-year-old baby boy with a big round bald head and one curl of brown hair on top, heavy-lidded grumpy unimpressed eyes, furrowed eyebrows, orange pacifier shaped like a tiny pumpkin, mint-green onesie with little yellow stars",
+    "WOOFLE": "a huge fluffy grey werewolf with yellow eyes and big teeth, scary silhouette but one floppy ear, torn purple shorts",
+    "SHEETS": "a classic white bedsheet ghost with two dark eye holes and a faint glow; underneath is a tiny skinny cartoon skeleton",
+    "JACK": "a tall lanky scarecrow in a patched brown coat with straw hands and a carved jack-o-lantern head with flickering flame eyes",
+    "NIBBLES": "a short chubby pale cartoon vampire with slicked-back black hair, tiny fangs and an oversized black cape with red lining",
+    "MOM": "a young mom with a messy brown bun, oversized pink t-shirt pajamas, slippers"
+  },
+  "music": {
+    "file": "audio/music.mp3",
+    "volume": 0.30,
+    "search": "Pixabay Music or YouTube Audio Library: 'spooky funny', 'halloween pizzicato', 'mischievous cartoon'"
+  },
+  "shots": [
+    {
+      "id": 1, "duration": 6,
+      "image": "Wide shot of a moonlit nursery on Halloween night, a jack-o-lantern glowing on the windowsill, MILO sits inside his wooden crib on top of an overflowing orange pumpkin bucket full of candy, arms crossed, sucking his pacifier, guarding it",
+      "motion": "Slow camera push-in toward the crib, curtains sway gently, jack-o-lantern flame flickers, Milo blinks slowly and tightens his crossed arms",
+      "sfx": [{"file": "crickets.mp3", "at": 0, "vol": 0.5}, {"file": "wolf_howl_distant.mp3", "at": 2.5, "vol": 0.6}]
+    },
+    {
+      "id": 2, "duration": 5,
+      "image": "Extreme close-up of MILO's face, grumpy heavy-lidded eyes glancing to the side, pumpkin pacifier in mouth, moonlight rim light",
+      "motion": "Milo's eyes slide left then right suspiciously, the pacifier sucks twice, eyebrows lower even further",
+      "sfx": [{"file": "pacifier_squeak.mp3", "at": 1.5, "vol": 0.8}]
+    },
+    {
+      "id": 3, "duration": 6,
+      "image": "Nursery window at night, the curtain lit from behind showing a huge werewolf shadow, a giant hairy WOOFLE claw sliding through the open window toward the candy bucket",
+      "motion": "The window creaks open, the hairy claw slowly reaches in toward the candy bucket, fingers wiggling greedily",
+      "sfx": [{"file": "window_creak.mp3", "at": 0.3, "vol": 0.8}, {"file": "growl_low.mp3", "at": 2.5, "vol": 0.8}]
+    },
+    {
+      "id": 4, "duration": 6,
+      "image": "WOOFLE the werewolf leaning over the crib snarling with drool and big teeth, MILO in front looking totally unimpressed, holding up a squeaky rubber bone toy",
+      "motion": "Werewolf leans closer and snarls dramatically, Milo does not react at all and slowly lifts the rubber bone toy",
+      "sfx": [{"file": "werewolf_snarl.mp3", "at": 0.5, "vol": 0.9}]
+    },
+    {
+      "id": 5, "duration": 6,
+      "image": "MILO squeezing a squeaky rubber bone, WOOFLE the werewolf with sparkling puppy eyes, tongue out and tail wagging",
+      "motion": "Milo squeaks the bone and tosses it out the window, the werewolf's face turns into a happy puppy, tail wags fast and he leaps out of the window after it",
+      "sfx": [{"file": "squeak_toy.mp3", "at": 0.5, "vol": 0.9}, {"file": "happy_bark.mp3", "at": 2.5, "vol": 0.8}, {"file": "whoosh.mp3", "at": 4, "vol": 0.7}]
+    },
+    {
+      "id": 6, "duration": 6,
+      "image": "SHEETS the bedsheet ghost floating out of a half-open closet, arms raised high, glowing eye holes, misty blue light, MILO watching from the crib",
+      "motion": "The ghost glides slowly toward the crib with arms raised, sheet rippling, faint glow pulsing",
+      "sfx": [{"file": "ghost_boo.mp3", "at": 1, "vol": 0.9}]
+    },
+    {
+      "id": 7, "duration": 6,
+      "image": "MILO yanking the corner of the bedsheet, the sheet falling away to reveal a tiny skinny skeleton covering its ribs with both hands, embarrassed blush on its skull",
+      "motion": "Milo pulls the sheet off in one tug, the little skeleton freezes, covers its ribs in embarrassment, then runs away clattering",
+      "sfx": [{"file": "cloth_whip.mp3", "at": 0.5, "vol": 0.9}, {"file": "bone_clatter.mp3", "at": 3, "vol": 0.9}]
+    },
+    {
+      "id": 8, "duration": 6,
+      "image": "JACK the jack-o-lantern-headed scarecrow rising slowly from behind a toy shelf, flame eyes flaring bright orange, menacing carved grin, smoke curling",
+      "motion": "The scarecrow rises up tall, flames in its eyes flare, its head tilts and it laughs menacingly",
+      "sfx": [{"file": "fire_whoosh.mp3", "at": 1, "vol": 0.8}, {"file": "evil_laugh.mp3", "at": 2.5, "vol": 0.8}]
+    },
+    {
+      "id": 9, "duration": 6,
+      "image": "MILO grumpily holding up a bright green sour candy to JACK the pumpkin-head scarecrow who is bending down to eat it",
+      "motion": "The scarecrow eats the candy, its carved face puckers up, flame eyes water, steam shoots from the top of its pumpkin and it runs away flailing its arms",
+      "sfx": [{"file": "crunch.mp3", "at": 1.2, "vol": 0.9}, {"file": "steam_whistle.mp3", "at": 2.8, "vol": 0.8}, {"file": "cartoon_yelp.mp3", "at": 4, "vol": 0.8}]
+    },
+    {
+      "id": 10, "duration": 6,
+      "image": "A wooden toy chest in the nursery with the lid opening, NIBBLES the chubby vampire rising out with his cape spread wide, hissing, tiny fangs, red glow inside the chest",
+      "motion": "The lid creaks open, the vampire rises dramatically, spreads his cape and hisses toward the crib",
+      "sfx": [{"file": "chest_creak.mp3", "at": 0.2, "vol": 0.8}, {"file": "bat_flutter.mp3", "at": 2, "vol": 0.7}, {"file": "hiss.mp3", "at": 3.5, "vol": 0.8}]
+    },
+    {
+      "id": 11, "duration": 6,
+      "image": "MILO pointing a star-shaped toy flashlight at NIBBLES the vampire, a bright warm beam of light hitting the vampire",
+      "motion": "Milo clicks the flashlight on, the vampire shrieks dramatically, spins, turns into a tiny bat with a puff of smoke and bonks into the wall",
+      "sfx": [{"file": "click.mp3", "at": 0.4, "vol": 0.9}, {"file": "dramatic_shriek.mp3", "at": 1, "vol": 0.8}, {"file": "poof.mp3", "at": 3, "vol": 0.8}, {"file": "bonk.mp3", "at": 4.5, "vol": 0.9}]
+    },
+    {
+      "id": 12, "duration": 6,
+      "image": "Dark hallway outside the nursery, WOOFLE, the little skeleton, JACK and NIBBLES as a tiny bat all huddled together in the corner, shaking and peeking at the nursery door",
+      "motion": "The monsters shiver together, teeth chattering, nervously glancing at the door",
+      "sfx": [{"file": "teeth_chatter.mp3", "at": 0.5, "vol": 0.8}]
+    },
+    {
+      "id": 13, "duration": 6,
+      "image": "Low angle shot of MILO standing in the nursery doorway, backlit by moonlight, dragging the pumpkin candy bucket, glaring at the monsters",
+      "motion": "Milo waddles forward step by step dragging the bucket, the monsters hug each other in terror",
+      "sfx": [{"file": "baby_footsteps.mp3", "at": 0, "vol": 0.8}, {"file": "ominous_hit.mp3", "at": 2, "vol": 0.7}]
+    },
+    {
+      "id": 14, "duration": 7,
+      "image": "MILO grumpily holding out the pumpkin candy bucket to the huddled monsters, the monsters' eyes sparkling with happy tears",
+      "motion": "Milo pushes the bucket toward them, the monsters gasp, eyes sparkle, each one carefully takes a single candy and hugs it",
+      "sfx": [{"file": "sparkle_chime.mp3", "at": 1, "vol": 0.8}, {"file": "aww.mp3", "at": 3, "vol": 0.7}]
+    },
+    {
+      "id": 15, "duration": 7,
+      "image": "Bright morning sunlight in the nursery, MOM frozen in the open doorway in shock, inside the crib WOOFLE, the skeleton, JACK and NIBBLES are asleep in footie pajamas cuddled around MILO, candy wrappers everywhere",
+      "motion": "The door swings open, Mom's jaw drops, the monsters snore peacefully in the crib",
+      "sfx": [{"file": "birds_morning.mp3", "at": 0, "vol": 0.5}, {"file": "door_creak.mp3", "at": 0.3, "vol": 0.8}, {"file": "snore.mp3", "at": 2.5, "vol": 0.7}]
+    },
+    {
+      "id": 16, "duration": 6,
+      "image": "Close-up of MILO in the crib between the sleeping monsters, opening one grumpy eye and holding a finger to his lips, MOM blurred in the doorway",
+      "motion": "Milo opens one eye, raises a finger to his lips to say shh, Mom slowly tiptoes backwards out of the room",
+      "sfx": [{"file": "baby_shh.mp3", "at": 1, "vol": 0.9}, {"file": "end_chime.mp3", "at": 4.5, "vol": 0.7}]
+    }
+  ]
+}
