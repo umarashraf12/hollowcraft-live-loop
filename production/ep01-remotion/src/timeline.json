@@ -1,0 +1,271 @@
+{
+ "fps": 30,
+ "shots": [
+  {
+   "id": 1,
+   "duration": 6,
+   "sfx": [
+    {
+     "file": "crickets.mp3",
+     "at": 0,
+     "vol": 0.5
+    },
+    {
+     "file": "wolf_howl_distant.mp3",
+     "at": 2.5,
+     "vol": 0.6
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "duration": 5,
+   "sfx": [
+    {
+     "file": "pacifier_squeak.mp3",
+     "at": 1.5,
+     "vol": 0.8
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "duration": 6,
+   "sfx": [
+    {
+     "file": "window_creak.mp3",
+     "at": 0.3,
+     "vol": 0.8
+    },
+    {
+     "file": "growl_low.mp3",
+     "at": 2.5,
+     "vol": 0.8
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "duration": 6,
+   "sfx": [
+    {
+     "file": "werewolf_snarl.mp3",
+     "at": 0.5,
+     "vol": 0.9
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "duration": 6,
+   "sfx": [
+    {
+     "file": "squeak_toy.mp3",
+     "at": 0.5,
+     "vol": 0.9
+    },
+    {
+     "file": "happy_bark.mp3",
+     "at": 2.5,
+     "vol": 0.8
+    },
+    {
+     "file": "whoosh.mp3",
+     "at": 4,
+     "vol": 0.7
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "duration": 6,
+   "sfx": [
+    {
+     "file": "ghost_boo.mp3",
+     "at": 1,
+     "vol": 0.9
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "duration": 6,
+   "sfx": [
+    {
+     "file": "cloth_whip.mp3",
+     "at": 0.5,
+     "vol": 0.9
+    },
+    {
+     "file": "bone_clatter.mp3",
+     "at": 3,
+     "vol": 0.9
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "duration": 6,
+   "sfx": [
+    {
+     "file": "fire_whoosh.mp3",
+     "at": 1,
+     "vol": 0.8
+    },
+    {
+     "file": "evil_laugh.mp3",
+     "at": 2.5,
+     "vol": 0.8
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "duration": 6,
+   "sfx": [
+    {
+     "file": "crunch.mp3",
+     "at": 1.2,
+     "vol": 0.9
+    },
+    {
+     "file": "steam_whistle.mp3",
+     "at": 2.8,
+     "vol": 0.8
+    },
+    {
+     "file": "cartoon_yelp.mp3",
+     "at": 4,
+     "vol": 0.8
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "duration": 6,
+   "sfx": [
+    {
+     "file": "chest_creak.mp3",
+     "at": 0.2,
+     "vol": 0.8
+    },
+    {
+     "file": "bat_flutter.mp3",
+     "at": 2,
+     "vol": 0.7
+    },
+    {
+     "file": "hiss.mp3",
+     "at": 3.5,
+     "vol": 0.8
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "duration": 6,
+   "sfx": [
+    {
+     "file": "click.mp3",
+     "at": 0.4,
+     "vol": 0.9
+    },
+    {
+     "file": "dramatic_shriek.mp3",
+     "at": 1,
+     "vol": 0.8
+    },
+    {
+     "file": "poof.mp3",
+     "at": 3,
+     "vol": 0.8
+    },
+    {
+     "file": "bonk.mp3",
+     "at": 4.5,
+     "vol": 0.9
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "duration": 6,
+   "sfx": [
+    {
+     "file": "teeth_chatter.mp3",
+     "at": 0.5,
+     "vol": 0.8
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "duration": 6,
+   "sfx": [
+    {
+     "file": "baby_footsteps.mp3",
+     "at": 0,
+     "vol": 0.8
+    },
+    {
+     "file": "ominous_hit.mp3",
+     "at": 2,
+     "vol": 0.7
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "duration": 7,
+   "sfx": [
+    {
+     "file": "sparkle_chime.mp3",
+     "at": 1,
+     "vol": 0.8
+    },
+    {
+     "file": "aww.mp3",
+     "at": 3,
+     "vol": 0.7
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "duration": 7,
+   "sfx": [
+    {
+     "file": "birds_morning.mp3",
+     "at": 0,
+     "vol": 0.5
+    },
+    {
+     "file": "door_creak.mp3",
+     "at": 0.3,
+     "vol": 0.8
+    },
+    {
+     "file": "snore.mp3",
+     "at": 2.5,
+     "vol": 0.7
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "duration": 6,
+   "sfx": [
+    {
+     "file": "baby_shh.mp3",
+     "at": 1,
+     "vol": 0.9
+    },
+    {
+     "file": "end_chime.mp3",
+     "at": 4.5,
+     "vol": 0.7
+    }
+   ]
+  }
+ ]
+}

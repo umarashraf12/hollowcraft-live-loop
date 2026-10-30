@@ -5,6 +5,9 @@ no dialogue, music + SFX, ~100 s) with an original story and an **original cast*
 no Freddy/Chucky/Samara look-alikes, so no copyright claims or "reused content"
 monetization problems.
 
+> **A fully code-generated version of this episode (free, no AI credits) lives in
+> [`../ep01-remotion`](../ep01-remotion).** This folder is for an AI-video version.
+
 **Runtime:** 97 s · 16 shots · 16:9 master + 9:16 Shorts cut
 **Release:** Halloween — upload by Oct 31 morning in your main audience's timezone.
 
