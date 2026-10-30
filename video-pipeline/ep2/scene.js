@@ -923,3 +923,25 @@ window.renderFrame = function (t) {
   return comp.toDataURL('image/jpeg', .9);
 };
 window.READY = true;
+
+// Thumbnail hero frames (no HUD/captions). mode 'mine' = diamond vein close-up, 'dive' = elytra mace dive.
+window.renderThumb2 = function (mode, o = {}) {
+  const S = { t: 50, env: 'sky', hud: false, fp: false, bursts: [], rings: [], dyn: [], xray: null, overlays: [], hits: [], trail2: null, edge: false, drop: null,
+    player: { visible: false, pos: V(0, 0, 0), yaw: 0, p: {}, wings: 0 }, mob: null };
+  if (mode === 'mine') {
+    mineSet(S, 40.5); S.bursts = [];
+    const c = V(207.5, -57.2, 19.05);
+    S.bursts.push({ type: 'dbreak', t0: 49.88, o: c, n: 70, sp: [1.5, 4], up: [0, 4], g: 6, life: 1, size: .1, seed: 5 });
+    S.cam = { pos: V(o.cx ?? 205.7, o.cy ?? -56.6, o.cz ?? 17.6), look: V(o.lx ?? 207.4, o.ly ?? -57.3, o.lz ?? 19.4), fov: o.fov ?? 64 };
+  } else {
+    S.player = { visible: true, pos: V(40, o.py ?? 13.2, 33.2), yaw: o.pyaw ?? 2.2, tilt: o.tilt ?? .35, held: 'mace', wings: o.wings ?? .8, p: { smash: .05 } };
+    S.mob = { pos: V(40, 9, 35), yaw: o.myaw ?? 2.4, walk: 1.2, alive: true, dead: 0, hurt: false };
+    S.cam = { pos: V(o.cx ?? 44.6, o.cy ?? 10.2, o.cz ?? 29.4), look: V(o.lx ?? 40.6, o.ly ?? 12.6, o.lz ?? 34.6), fov: o.fov ?? 62 };
+  }
+  apply(S);
+  if (mode === 'dive') { PLAYER.item.scale.setScalar(2.4); PLAYER.item.position.set(0, -.95, 0); PLAYER.item.rotation.set(0, -.6, deg(-40)); pose(PLAYER, { smash: .1 }); }
+  camLight.intensity = mode === 'mine' ? 3.4 : 0;
+  renderer.render(scene, camera);
+  ctx.save(); ctx.filter = 'saturate(1.35) contrast(1.12)'; ctx.drawImage(renderer.domElement, 0, 0); ctx.restore();
+  return comp.toDataURL('image/png');
+};
