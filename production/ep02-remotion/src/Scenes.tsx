@@ -117,8 +117,9 @@ const Feed: React.FC<SceneProps> = (p) => {
   const t = p.t;
   const c = FD;
   const swoop = (t - c[3]) * 5;
-  const lean = ramp(t, c[10], c[10] + 0.4) * 0.35;
-  const wx = lerp(0.45, 0.72, ramp(t, c[10], c[10] + 0.4));
+  const retreat = ramp(t, c[11], c[11] + 0.5);
+  const lean = ramp(t, c[10], c[10] + 0.4) * 0.35 * (1 - retreat);
+  const wx = lerp(lerp(0.45, 0.72, ramp(t, c[10], c[10] + 0.4)), 0.3, retreat);
   const bonkT = c[10] + 0.7;
   const bonk = ramp(t, bonkT - 0.12, bonkT);
   const gulpOpen = pulse(t, c[6] + 0.1, c[6] + 0.25, c[6] + 0.35, c[6] + 0.5);
