@@ -1,0 +1,659 @@
+{
+ "fps": 30,
+ "scenes": [
+  {
+   "id": "leave",
+   "music": "tiptoe",
+   "cuts": [
+    {
+     "cam": "hallWide",
+     "dur": 2.2
+    },
+    {
+     "cam": "momCU",
+     "dur": 1.4
+    },
+    {
+     "cam": "doorWide",
+     "dur": 1.6
+    }
+   ],
+   "sfx": [
+    {
+     "cut": 0,
+     "at": 0.3,
+     "file": "keys_jingle",
+     "vol": 0.6
+    },
+    {
+     "cut": 1,
+     "at": 0.4,
+     "file": "kiss",
+     "vol": 0.8
+    },
+    {
+     "cut": 2,
+     "at": 0.7,
+     "file": "door_close",
+     "vol": 0.9
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "music": "sneaky",
+   "cuts": [
+    {
+     "cam": "miloCU",
+     "dur": 1.6
+    },
+    {
+     "cam": "chest",
+     "dur": 1.2
+    },
+    {
+     "cam": "closet",
+     "dur": 1.2
+    },
+    {
+     "cam": "window",
+     "dur": 1.0
+    },
+    {
+     "cam": "shelf",
+     "dur": 1.0
+    },
+    {
+     "cam": "wide",
+     "dur": 2.4,
+     "title": true
+    },
+    {
+     "cam": "miloCU",
+     "dur": 1.4
+    }
+   ],
+   "sfx": [
+    {
+     "cut": 0,
+     "at": 0.2,
+     "file": "clock_tick",
+     "vol": 0.6
+    },
+    {
+     "cut": 1,
+     "at": 0.1,
+     "file": "chest_creak",
+     "vol": 0.8
+    },
+    {
+     "cut": 2,
+     "at": 0.1,
+     "file": "door_creak",
+     "vol": 0.8
+    },
+    {
+     "cut": 3,
+     "at": 0.15,
+     "file": "pop_up",
+     "vol": 0.8
+    },
+    {
+     "cut": 4,
+     "at": 0.15,
+     "file": "fire_whoosh",
+     "vol": 0.6
+    },
+    {
+     "cut": 5,
+     "at": 0.15,
+     "file": "tada",
+     "vol": 1.0
+    },
+    {
+     "cut": 6,
+     "at": 0.5,
+     "file": "eyebrow_boing",
+     "vol": 0.8
+    }
+   ]
+  },
+  {
+   "id": "feed",
+   "music": "bouncy",
+   "cuts": [
+    {
+     "cam": "two",
+     "dur": 2.2
+    },
+    {
+     "cam": "bowl",
+     "dur": 1.2
+    },
+    {
+     "cam": "miloCU",
+     "dur": 1.3
+    },
+    {
+     "cam": "medium",
+     "dur": 2.4
+    },
+    {
+     "cam": "miloCU",
+     "dur": 1.4
+    },
+    {
+     "cam": "wolfCU",
+     "dur": 1.5
+    },
+    {
+     "cam": "medium",
+     "dur": 1.2
+    },
+    {
+     "cam": "miloCU",
+     "dur": 1.0
+    },
+    {
+     "cam": "wide",
+     "dur": 2.0
+    },
+    {
+     "cam": "wolfCU",
+     "dur": 1.4
+    },
+    {
+     "cam": "two",
+     "dur": 1.3
+    },
+    {
+     "cam": "wolfCU",
+     "dur": 1.5
+    },
+    {
+     "cam": "miloCU",
+     "dur": 1.4
+    }
+   ],
+   "sfx": [
+    {
+     "cut": 0,
+     "at": 0.4,
+     "file": "monster_hum",
+     "vol": 0.6
+    },
+    {
+     "cut": 1,
+     "at": 0.1,
+     "file": "mush_bubble",
+     "vol": 0.7
+    },
+    {
+     "cut": 2,
+     "at": 0.3,
+     "file": "baby_hmph",
+     "vol": 0.8
+    },
+    {
+     "cut": 3,
+     "at": 0.1,
+     "file": "airplane",
+     "vol": 0.8
+    },
+    {
+     "cut": 5,
+     "at": 0.2,
+     "file": "sniff",
+     "vol": 0.9
+    },
+    {
+     "cut": 6,
+     "at": 0.3,
+     "file": "gulp",
+     "vol": 1.0
+    },
+    {
+     "cut": 7,
+     "at": 0.4,
+     "file": "blink",
+     "vol": 0.8
+    },
+    {
+     "cut": 8,
+     "at": 0.1,
+     "file": "gobble",
+     "vol": 0.9
+    },
+    {
+     "cut": 9,
+     "at": 0.2,
+     "file": "slurp",
+     "vol": 0.8
+    },
+    {
+     "cut": 10,
+     "at": 0.7,
+     "file": "bonk",
+     "vol": 1.0
+    },
+    {
+     "cut": 11,
+     "at": 0.2,
+     "file": "whimper",
+     "vol": 0.9
+    },
+    {
+     "cut": 12,
+     "at": 0.4,
+     "file": "baby_hmph",
+     "vol": 0.7
+    }
+   ]
+  },
+  {
+   "id": "bath",
+   "music": "bubbly",
+   "cuts": [
+    {
+     "cam": "wide",
+     "dur": 2.2
+    },
+    {
+     "cam": "duck",
+     "dur": 1.0
+    },
+    {
+     "cam": "ghost",
+     "dur": 1.8
+    },
+    {
+     "cam": "water",
+     "dur": 1.2
+    },
+    {
+     "cam": "ghostLow",
+     "dur": 1.6
+    },
+    {
+     "cam": "skullCU",
+     "dur": 1.5
+    },
+    {
+     "cam": "miloCU",
+     "dur": 1.2
+    },
+    {
+     "cam": "skel",
+     "dur": 1.4
+    },
+    {
+     "cam": "wide",
+     "dur": 2.0
+    },
+    {
+     "cam": "skullCU",
+     "dur": 1.4
+    }
+   ],
+   "sfx": [
+    {
+     "cut": 0,
+     "at": 0.0,
+     "file": "bubbles",
+     "vol": 0.6
+    },
+    {
+     "cut": 1,
+     "at": 0.3,
+     "file": "duck_squeak",
+     "vol": 0.9
+    },
+    {
+     "cut": 2,
+     "at": 0.5,
+     "file": "ghost_hum",
+     "vol": 0.6
+    },
+    {
+     "cut": 3,
+     "at": 0.2,
+     "file": "splash",
+     "vol": 0.9
+    },
+    {
+     "cut": 4,
+     "at": 0.1,
+     "file": "shrink",
+     "vol": 0.9
+    },
+    {
+     "cut": 5,
+     "at": 0.3,
+     "file": "gasp",
+     "vol": 0.8
+    },
+    {
+     "cut": 6,
+     "at": 0.5,
+     "file": "duck_squeak",
+     "vol": 0.8
+    },
+    {
+     "cut": 7,
+     "at": 0.2,
+     "file": "bone_clatter",
+     "vol": 0.5
+    },
+    {
+     "cut": 8,
+     "at": 0.5,
+     "file": "towel_whoosh",
+     "vol": 0.8
+    },
+    {
+     "cut": 9,
+     "at": 0.4,
+     "file": "aww",
+     "vol": 0.6
+    }
+   ]
+  },
+  {
+   "id": "pjs",
+   "music": "bouncy",
+   "cuts": [
+    {
+     "cam": "wide",
+     "dur": 2.0
+    },
+    {
+     "cam": "miloCU",
+     "dur": 1.0
+    },
+    {
+     "cam": "medium",
+     "dur": 1.4
+    },
+    {
+     "cam": "shoulder",
+     "dur": 1.2
+    },
+    {
+     "cam": "armFly",
+     "dur": 1.4
+    },
+    {
+     "cam": "skullCU",
+     "dur": 1.2
+    },
+    {
+     "cam": "miloCU",
+     "dur": 1.3
+    },
+    {
+     "cam": "medium",
+     "dur": 2.0
+    },
+    {
+     "cam": "skullCU",
+     "dur": 1.4
+    }
+   ],
+   "sfx": [
+    {
+     "cut": 0,
+     "at": 0.4,
+     "file": "cloth_rustle",
+     "vol": 0.7
+    },
+    {
+     "cut": 1,
+     "at": 0.1,
+     "file": "baby_giggle",
+     "vol": 0.8
+    },
+    {
+     "cut": 2,
+     "at": 0.2,
+     "file": "spin",
+     "vol": 0.8
+    },
+    {
+     "cut": 3,
+     "at": 0.5,
+     "file": "pop",
+     "vol": 1.0
+    },
+    {
+     "cut": 4,
+     "at": 0.0,
+     "file": "slide_whistle",
+     "vol": 0.8
+    },
+    {
+     "cut": 5,
+     "at": 0.2,
+     "file": "gasp",
+     "vol": 0.8
+    },
+    {
+     "cut": 6,
+     "at": 0.5,
+     "file": "blink",
+     "vol": 0.8
+    },
+    {
+     "cut": 7,
+     "at": 0.3,
+     "file": "zip_on",
+     "vol": 0.9
+    },
+    {
+     "cut": 8,
+     "at": 0.5,
+     "file": "click",
+     "vol": 1.0
+    }
+   ]
+  },
+  {
+   "id": "lullaby",
+   "music": "lullaby_break",
+   "cuts": [
+    {
+     "cam": "wide",
+     "dur": 2.0
+    },
+    {
+     "cam": "vampCU",
+     "dur": 1.2
+    },
+    {
+     "cam": "vampLow",
+     "dur": 1.6
+    },
+    {
+     "cam": "jackCU",
+     "dur": 1.2
+    },
+    {
+     "cam": "wolfCU",
+     "dur": 1.0
+    },
+    {
+     "cam": "sill",
+     "dur": 0.8
+    },
+    {
+     "cam": "miloCU",
+     "dur": 1.0
+    },
+    {
+     "cam": "medium",
+     "dur": 1.8
+    },
+    {
+     "cam": "vampCU",
+     "dur": 1.4
+    },
+    {
+     "cam": "wide",
+     "dur": 2.4
+    },
+    {
+     "cam": "miloCU",
+     "dur": 1.2
+    }
+   ],
+   "sfx": [
+    {
+     "cut": 1,
+     "at": 0.1,
+     "file": "big_inhale",
+     "vol": 0.9
+    },
+    {
+     "cut": 2,
+     "at": 0.0,
+     "file": "opera",
+     "vol": 0.9
+    },
+    {
+     "cut": 4,
+     "at": 0.0,
+     "file": "howl_along",
+     "vol": 0.7
+    },
+    {
+     "cut": 5,
+     "at": 0.1,
+     "file": "rattle",
+     "vol": 0.8
+    },
+    {
+     "cut": 6,
+     "at": 0.3,
+     "file": "eye_twitch",
+     "vol": 0.8
+    },
+    {
+     "cut": 7,
+     "at": 0.9,
+     "file": "pacifier_pop",
+     "vol": 1.0
+    },
+    {
+     "cut": 8,
+     "at": 0.4,
+     "file": "suck_squeak",
+     "vol": 0.8
+    },
+    {
+     "cut": 9,
+     "at": 0.2,
+     "file": "yawns",
+     "vol": 0.8
+    },
+    {
+     "cut": 10,
+     "at": 0.3,
+     "file": "baby_hmph",
+     "vol": 0.7
+    }
+   ]
+  },
+  {
+   "id": "return",
+   "music": "tiptoe_end",
+   "cuts": [
+    {
+     "cam": "hallDoor",
+     "dur": 1.8
+    },
+    {
+     "cam": "doorPOV",
+     "dur": 2.0
+    },
+    {
+     "cam": "momCU",
+     "dur": 1.0
+    },
+    {
+     "cam": "dadCU",
+     "dur": 1.0
+    },
+    {
+     "cam": "miloCU",
+     "dur": 1.6
+    },
+    {
+     "cam": "doorIn",
+     "dur": 1.8
+    },
+    {
+     "cam": "wolfCU",
+     "dur": 1.2
+    },
+    {
+     "cam": "crib",
+     "dur": 2.2
+    },
+    {
+     "cam": "endWide",
+     "dur": 2.6,
+     "end": true
+    }
+   ],
+   "sfx": [
+    {
+     "cut": 0,
+     "at": 0.2,
+     "file": "door_creak",
+     "vol": 0.7
+    },
+    {
+     "cut": 1,
+     "at": 0.2,
+     "file": "snore",
+     "vol": 0.6
+    },
+    {
+     "cut": 2,
+     "at": 0.2,
+     "file": "gasp",
+     "vol": 0.8
+    },
+    {
+     "cut": 3,
+     "at": 0.1,
+     "file": "gasp_low",
+     "vol": 0.8
+    },
+    {
+     "cut": 4,
+     "at": 0.5,
+     "file": "baby_shh",
+     "vol": 1.0
+    },
+    {
+     "cut": 6,
+     "at": 0.1,
+     "file": "big_snore",
+     "vol": 1.0
+    },
+    {
+     "cut": 7,
+     "at": 0.8,
+     "file": "plush_squeak",
+     "vol": 0.9
+    },
+    {
+     "cut": 8,
+     "at": 0.3,
+     "file": "end_chime",
+     "vol": 0.8
+    }
+   ]
+  }
+ ]
+}

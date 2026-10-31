@@ -1,0 +1,23 @@
+{
+  "name": "ep01-remotion",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio",
+    "audio": "python3 scripts/make_audio.py",
+    "build": "./scripts/build.sh",
+    "stills": "node scripts/stills.mjs out/stills"
+  },
+  "dependencies": {
+    "@react-three/fiber": "^9.8.2",
+    "@remotion/cli": "4.0.539",
+    "@remotion/three": "4.0.539",
+    "@types/react": "^19.3.0",
+    "@types/three": "^0.170.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "4.0.539",
+    "three": "^0.170.0",
+    "typescript": "^5.9.3"
+  }
+}
