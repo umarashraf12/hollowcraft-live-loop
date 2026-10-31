@@ -35,3 +35,12 @@ B='"age":0.035,"py":11.4,"pyaw":1.9,"myaw":2.35,"cx":44.2,"cy":10.6,"cz":30.2,"l
 node thumb.js "[{$B,\"mry\":-0.6,\"mrz\":-40}]"     # -> thumb_raw0.png
 python3 thumb_compose.py thumb_raw0.png thumbnail.jpg
 ```
+
+## Thumbnails for episodes 3 and 4
+Each episode's `scene.js` has `window.renderHero(t, cam, opts)`, which renders any moment of the timeline with no HUD, captions or overlays.
+`hero.js` saves hero frames, and each episode's `thumb_compose.py` (using `thumb_common.py`) builds the slanted split, text, tags and pixel icons.
+
+```bash
+cd ep3 && node ../hero.js 8767 '[[47,{"pos":[40.6,11.0,32.4],"look":[40.0,11.4,36.4],"fov":58}],[115,{"pos":[-286,52,-4],"look":[-300,45,14],"fov":64}]]' h3_ && python3 thumb_compose.py
+cd ep4 && node ../hero.js 8768 '[[0,null],[0,null],[79.6,{"pos":[1.4,10.6,-8.9],"look":[1.5,10.5,-11.5],"fov":48},{"player":false}]]' h4_ && python3 thumb_compose.py
+```

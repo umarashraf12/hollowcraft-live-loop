@@ -1033,3 +1033,13 @@ window.renderFrame = function (t) {
 };
 window.READY = true;
 
+
+// Thumbnail hero frame: any timeline moment, no HUD/captions/overlays, optional camera override.
+window.renderHero = function (t, cam, opts = {}) {
+  const S = stateAt(t); S.overlays = []; S.hud = false; S.fp = false; S.filter = ''; S.nausea = 0; S.flashT = null;
+  if (opts.player === false) S.player.visible = false;
+  if (cam) S.cam = { pos: V(...cam.pos), look: V(...cam.look), fov: cam.fov || 60 };
+  apply(S); renderer.render(scene, camera);
+  ctx.save(); ctx.filter = 'saturate(1.35) contrast(1.12)'; ctx.drawImage(renderer.domElement, 0, 0); ctx.restore();
+  return comp.toDataURL('image/png');
+};
