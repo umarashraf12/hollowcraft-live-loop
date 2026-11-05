@@ -1,0 +1,26 @@
+# 2-minute look test: "I Survived 100 Days on a Sky Island in Hardcore Minecraft" (gameplay-style render)
+import json
+L = [(0.3, "This tiny island is floating a hundred blocks above the world."),
+ (3.9, "One tree. One chest."),
+ (6.4, "And if I fall, it's over. This is hardcore."),
+ (10.2, "For the next one hundred days, I have to turn this into a real base, and beat the Ender Dragon, without ever touching the ground."),
+ (18.6, "Day one. First rule of sky island: don't look down."),
+ (22.8, "I looked down."),
+ (25.6, "Okay, the chest. A lava bucket, some ice, seeds... and a bone? Thanks, I guess."),
+ (32.4, "Every block up here is precious, so I'm punching this tree very, very carefully."),
+ (38.6, "Come on, drop a sapling... YES!"),
+ (43.6, "Planks. Crafting table. Wooden pickaxe."),
+ (47.8, "Now, the most important build in sky island history."),
+ (51.6, "Lava here. Ice here, which melts into water... and..."),
+ (57.6, "Infinite cobblestone! Let's GO!"),
+ (63.6, "Time to make this island bigger. Nice and slow..."),
+ (69.8, "Whoa, whoa, WHOA!"),
+ (74.4, "Nope. I'm sneaking from now on."),
+ (79.6, "Night one. Skeletons can spawn up here..."),
+ (83.6, "and of course, there's one right behind me."),
+ (87.4, "He's trying to knock me off! Get over here!"),
+ (94.0, "Bones! That means bone meal. That means... more trees."),
+ (102.6, "Day three."),
+ (104.4, "The tree is growing. The island is twice the size."),
+ (108.6, "And I haven't died. Yet.")]
+json.dump({'total': 120, 'segs': [{'kind': 'skytest', 'dur': 120, 'day': None, 'title': None, 'lines': L, 'start': 0}]}, open('segs.json', 'w'), indent=1)
