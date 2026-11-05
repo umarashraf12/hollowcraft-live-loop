@@ -16,3 +16,7 @@ A test of the new realistic gameplay look for "I Survived 100 Days on a Sky Isla
 - `assemble.py` builds `scene.js` on top of the existing engine, the compilation (`comp2`) world and the 100 Days world, with `tail_d.js` providing the apply loop. It removes the episode-1 cliff from the terrain.
 - `segs.py` holds the script, with timings. `tts.py` runs Kokoro (`am_michael`, speed 1.12). `sfx_g.py` builds wind, heartbeat, chest, ice-break, skeleton-rattle and hurt sounds, plus the music.
 - Serve the folder on port 8772. Render frames 0–3600 at 30 fps.
+
+## v2: teen voice, no captions
+- `tts_teen.py`: Kokoro `am_eric` at speed 1.12 writes `audio/vo_raw.wav`. That file is then pitched up with formants shifted, using `ffmpeg -af "rubberband=pitch=1.122:formant=shifted"`, to reach a median pitch of about 176–180 Hz, a teenage-boy range. Other options tested: pitch 1.19 for a younger sound (189 Hz), and `am_liam` at pitch 1.26 for an older teen (157 Hz).
+- Captions are off by default. Set `window.SHOW_CAPTIONS = true` to turn the word-pop captions back on.

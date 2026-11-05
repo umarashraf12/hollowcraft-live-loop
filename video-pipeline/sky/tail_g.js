@@ -169,7 +169,7 @@ function drawOverlaysG(S) {
       ctx.fillStyle = '#8b8b8b'; ctx.fillRect(-200, -70, 120, 120); ctx.fillRect(80, -70, 120, 120); icon(st[1], -140, -10, 96); txt('→', 0, -10, 80, '#555', { stroke: false }); ctx.save(); ctx.translate(140, -10); ctx.scale(pk, pk); icon(st[2], 0, 0, 96); ctx.restore(); txt(st[3], 0, 100, 34, '#404040', { stroke: false }); ctx.restore(); }
   }
   // word-pop captions
-  const c = WORDCAPS.find(([a, b]) => t >= a && t < b + .06); if (c) { const k = eOutBack(seg(t, c[0], c[0] + .12)); const hot = /!|[A-Z]{3,}/.test(c[2]); txt(c[2].toUpperCase(), W / 2, H * .66, 78, hot ? '#ffd400' : '#ffffff', { scale: .7 + .3 * k, lw: 14 }); }
+  const c = window.SHOW_CAPTIONS ? WORDCAPS.find(([a, b]) => t >= a && t < b + .06) : null; if (c) { const k = eOutBack(seg(t, c[0], c[0] + .12)); const hot = /!|[A-Z]{3,}/.test(c[2]); txt(c[2].toUpperCase(), W / 2, H * .66, 78, hot ? '#ffd400' : '#ffffff', { scale: .7 + .3 * k, lw: 14 }); }
   // day counter (small, top-left)
   if (S.day && t >= 18) { const a = seg(t, 18, 18.4); ctx.save(); ctx.globalAlpha = a; rrect(36, 36, 236, 74, 14, 'rgba(0,0,0,.55)', null); txt('DAY ' + S.day, 154, 75, 44, '#ffffff', { stroke: false }); ctx.restore(); }
   // item name above hotbar for 1.5 s after a slot change
